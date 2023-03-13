@@ -1,0 +1,27 @@
+{
+  "name": "SequelizeMSSQL",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "cors": "^2.8.5",
+    "express": "^4.14.0",
+    "jsonwebtoken": "^9.0.0",
+    "morgan": "^1.7.0",
+    "multer": "^1.4.5-lts.1",
+    "mysql2": "^3.1.2",
+    "sequelize": "^6.27.0",
+    "sequelize-cli": "^6.5.2",
+    "sqlite3": "^5.1.4",
+    "tedious": "^15.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
